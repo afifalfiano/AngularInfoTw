@@ -54,6 +54,11 @@
     "tslint": "~6.1.0",
     "typescript": "~4.1.5"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run pre-commit"
+    }
+  },
   "lint-staged": {
     "src/**/*.ts": [
       "ng-lint-staged lint --fix --"
