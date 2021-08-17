@@ -8,7 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "pre-commit": "lint-staged"
+    "pre-commit": "lint-staged",
+    "stylelint": "npx stylelint --fix"
   },
   "private": true,
   "dependencies": {
@@ -60,7 +61,7 @@
       "tslint --fix"
     ],
     "*.{css,scss}": [
-      "npx stylelint -fix"
+      "npx stylelint src/**/*.scss --fix"
     ]
   }
 }
