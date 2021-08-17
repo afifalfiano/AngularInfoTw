@@ -52,8 +52,8 @@
     "typescript": "~4.1.5"
   },
   "lint-staged": {
-    "*.{ts}": [
-      "ng lint --fix"
+    "*.ts": [
+      "npx tslint src/**/*/.ts"
     ]
   }
 }
