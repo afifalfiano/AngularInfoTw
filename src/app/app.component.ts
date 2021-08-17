@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'AngularInfoTwz';
   a =    '';
+  asda =    '';
+  azc =    '';
+  acxz =    '';
+  aasd =    '';
 }
