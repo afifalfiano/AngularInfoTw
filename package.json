@@ -60,7 +60,7 @@
     }
   },
   "lint-staged": {
-    "*.{ts, js}": [
+    "*.{ts,js}": [
       "ng-lint-staged lint --fix --",
       "ng lint --fix"
     ],
