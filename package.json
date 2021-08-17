@@ -63,7 +63,7 @@
     "src/**/*.ts": [
       "ng-lint-staged lint --fix --"
     ],
-    "*.{css, scss}": [
+    "*.{css,scss}": [
       "stylelint -fix"
     ]
   }
