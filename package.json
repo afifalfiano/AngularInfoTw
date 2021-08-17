@@ -61,11 +61,10 @@
   },
   "lint-staged": {
     "*.{ts,js}": [
-      "ng-lint-staged lint --fix --",
-      "ng lint --fix"
+      "ng-lint-staged lint --fix --"
     ],
     "*.{css,scss}": [
-      "stylelint -fix"
+      "npx stylelint -fix"
     ]
   }
 }
